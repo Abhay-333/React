@@ -18,6 +18,8 @@ function App() {
         <button onClick={()=>setColor('#4D869C')} className='bg-[#4D869C] py-2 px-5 rounded-full'>Steel Blue</button>
         <button onClick={()=>setColor('#32012F')} className='bg-[#32012F] py-2 px-5 rounded-full'>Dark Purple</button>
         <button onClick={()=>setColor('#00215E')} className='bg-[#00215E] py-2 px-5 rounded-full'>Dark Imperial Blue</button>
+
+        
       </nav>
     </div>
   )
