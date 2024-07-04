@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import Login from './Components/Login';
+import Profile from './Components/Profile';
 import UserContextProvider from './Context/UserContextProvider'
-import Login from './Components/Login'
-import Profile from './Components/Profile'
 
-function App() {
-
+const App = ()=>{
   return (
     <UserContextProvider>
-      <Login />
-      <Profile />
+    <Login></Login>
+    <Profile></Profile>
     </UserContextProvider>
   )
 }
 
-export default App
+export default App;
